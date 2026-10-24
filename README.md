@@ -75,4 +75,4 @@ The rules were tuned on these same cases, so treat the numbers as "found and fix
 
 ## License
 
-[ADD A LICENSE, e.g. MIT]
+MIT. See the `LICENSE` file.
