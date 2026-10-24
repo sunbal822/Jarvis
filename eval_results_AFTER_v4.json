@@ -1,0 +1,19 @@
+{
+  "extraction": [
+    {
+      "model": "gemma3:4b",
+      "cases": 28,
+      "valid_json": "100%",
+      "exact_task_list": "100%",
+      "exact_real": "21/21 = 100%",
+      "exact_synthetic": "7/7 = 100%",
+      "type_precision": "100%",
+      "type_recall": "100%",
+      "reminder_time_correct": "100%",
+      "clarification_flag_correct": "89%",
+      "avg_seconds_per_case": 32.5,
+      "failures": []
+    }
+  ],
+  "code": []
+}

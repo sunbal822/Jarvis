@@ -1,0 +1,348 @@
+[
+  {
+    "transcript": "I need a calculator in python and an email to my professor asking for an extension on the assignment.",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "email",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "transcript": "Remind me to call Professor Khan tomorrow at 3 PM.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "tomorrow at 3pm",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "transcript": "Text Ali that I will be ten minutes late and remind me to submit homework one on Friday at five.",
+    "gold": [
+      {
+        "type": "message",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "reminder",
+        "when": "friday at 5pm",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "transcript": "Set an alarm for me.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "",
+        "needs_clarification": true
+      }
+    ]
+  },
+  {
+    "transcript": "Summarize my group chat from last night and create a file called homework one for the calculus assignment.",
+    "gold": [
+      {
+        "type": "chat_summary",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "file",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "transcript": "Write a python script that checks if a number is prime. Also explain how photosynthesis works.",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "other",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "transcript": "Email the registrar asking about my transcript, and remind me in 20 minutes to drink water.",
+    "gold": [
+      {
+        "type": "email",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "reminder",
+        "when": "in 20 minutes",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.50.29.ogg",
+    "transcript": "Okay, so I need to make a calculator in Python and also I need to mail my Professor Khan about the extension on my assignments.",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "email",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.50.45.ogg",
+    "transcript": "Sit a reminder for calling my mom in five minutes.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "in five minutes",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.50.54.ogg",
+    "transcript": "Around 7 p.m. remind me that I need to close the oven please.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "around 7 pm",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.51.06.ogg",
+    "transcript": "I have an assignment on deep learning and its uses, compile an assignment for that and also give me a short summary so that I understand what's going on.",
+    "gold": [
+      {
+        "type": "file",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "other",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.51.35.ogg",
+    "transcript": "I dropped a message for Ali telling him that I would be late for the meeting around 30 minutes or so because I'm stuck in traffic at the moment.",
+    "gold": [
+      {
+        "type": "message",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.51.47.ogg",
+    "transcript": "Set a reminder for 8am tomorrow for my marathon.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "8am tomorrow",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.52.06.ogg",
+    "transcript": "Write an email for Ali and tell her that I won't be able to come to the meeting scheduled on Friday due to a holiday overlapping that.",
+    "gold": [
+      {
+        "type": "email",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.52.22.ogg",
+    "transcript": "For my assignment, I am supposed to make a linked list of 10 numbers. Okay, so can you make that for me?",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.52.35.ogg",
+    "transcript": "I need a simple calculator but with a UI interface, like a front-end. Can you write that code for me?",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.52.49.ogg",
+    "transcript": "Also, can you give me a summary of all the emails I have ever sent to Ali as of now?",
+    "gold": [
+      {
+        "type": "other",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 18.53.13.ogg",
+    "transcript": "I did not get my lecture on artificial intelligence last week. Can you give me a short summary on what artificial intelligence is and how it is changing the world?",
+    "gold": [
+      {
+        "type": "other",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.55.02.ogg",
+    "transcript": "I remind me at 5 on Friday about my workshop that I have to attend.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "friday at 5",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.55.10.ogg",
+    "transcript": "Give me the chat summary for last week, please.",
+    "gold": [
+      {
+        "type": "chat_summary",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.55.20.ogg",
+    "transcript": "Set a reminder to call my mom.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "",
+        "needs_clarification": true
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.55.33.ogg",
+    "transcript": "Give me a summary of artificial intelligence and its uses.",
+    "gold": [
+      {
+        "type": "other",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.56.08.ogg",
+    "transcript": "Okay so for today we have to firstly go over our assignment, the one with the calculator, the Python calculator. Secondly we have a meeting at 5, so we have to attend that. Also I have dinner at 8, a company dinner, so I need a reminder for for that as well.",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      },
+      {
+        "type": "reminder",
+        "when": "today at 5pm",
+        "needs_clarification": false
+      },
+      {
+        "type": "reminder",
+        "when": "today at 8pm",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.56.21.ogg",
+    "transcript": "Remind me on Saturday that I need to go visit the dentist.",
+    "gold": [
+      {
+        "type": "reminder",
+        "when": "saturday",
+        "needs_clarification": true
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.56.39.ogg",
+    "transcript": "Write a code that works on the Fibonacci series.",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.56.58.ogg",
+    "transcript": "Write a code that shows the difference between the breadth-first search and depth-first search and it should also make the tree.",
+    "gold": [
+      {
+        "type": "code",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.57.34.ogg",
+    "transcript": "I need you to draft an email to my supervisor telling her that I did the copyright work that was required for my FFP and ask her what I am supposed to do next.",
+    "gold": [
+      {
+        "type": "email",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  },
+  {
+    "source": "WhatsApp Ptt 2026-10-23 at 19.58.00.ogg",
+    "transcript": "Write a message, draft a message for my friend telling her that I wouldn't be able to come to lunch even though I did tell her I would. I got work to do and I couldn't really leave the office.",
+    "gold": [
+      {
+        "type": "message",
+        "when": "",
+        "needs_clarification": false
+      }
+    ]
+  }
+]

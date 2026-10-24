@@ -1,0 +1,18 @@
+# personal data and recordings
+*.ogg
+*.m4a
+*.mp3
+*.wav
+tonight.ogg
+last_night.ogg
+nightly_log.txt
+eval_notes/
+eval_set_draft.json
+jarvis_output/
+elevenlabs_key.txt
+hints.txt
+
+# python
+__pycache__/
+*.pyc
+.venv/
