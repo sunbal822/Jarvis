@@ -2,6 +2,7 @@
 
 Record a voice note before bed. Jarvis turns it into typed tasks, does them while you sleep, and gives you a morning report (and a spoken summary).
 
+Jarvis turns a spoken to-do list into typed tasks and does them overnight. The listening and thinking (faster-whisper and Gemma 3 4B through Ollama) run entirely on my laptop. Nothing is uploaded except, optionally, the short text of the morning summary, which goes to ElevenLabs to be spoken. There are no API fees, so a night costs nothing beyond electricity.
 Transcription (faster-whisper) and the thinking (Gemma 3 4B through Ollama) run locally. Nothing is uploaded. The spoken summary uses ElevenLabs and is optional.
 
 ## What it does
